@@ -230,9 +230,8 @@
       </section>
     </main>
 
-    <footer class="footer">
-      <div class="container">
-        
+  <footer class="footer">
+    <div class="container">       
         <div>
           <a href="./index.html" class="footer-logo-right">Web<span class="footer-logo-left">Studio</span></a>
           <p class="footer-text">
@@ -240,7 +239,6 @@
             digital marketing & growth solutions.
           </p>
       </div> 
-
       <div>
         <p class="footer-social-media">Social media</p>
         <ul class="footer-social-media-list">
@@ -253,20 +251,18 @@
           <li class="footer-social-media-list-item"><a href="#" class="footer-social-media-list-item-link"> <svg width="24" height="24" class="footer-svg"> <use href="./images/icons.svg#icon-twitter"></use></svg></a></li>
         </ul>
       </div>
-
       <div>
-          <p class="footer-social-media">Subscribe</p>
+          <p class="subscribe">Subscribe</p>
           <div class="container-form-button">
-            <form class="input-form">
-              <label for="email" class="footer-label" name=""></label>
-              <input type="email" id="email"  class="footer-email-input" placeholder="E-mail" name=""> <!-- placeholder email mi yazmalıyız yoksa labelların arasında metin mi?-->
-            </form>
-            <button type="submit" class="button-subscribe">Subscribe</button>
+            <input type="email" class="footer-email-input" placeholder="E-mail" >
+            <button type="submit" class="button-subscribe">Subscribe 
+              <svg class="icon-send"><use href="./images/icons.svg#icon-send"></use> 
+              </svg>
+            </button>
         </div>
       </div>
     
     </div>
-
     <div class="modal-window">
       <div class="overlay"></div>
       <form class="modal-content">
@@ -274,6 +270,7 @@
           <svg class="icon">
             <use href="./images/icons.svg#icon-close"> </use></svg>   
         </div>
+
         <h3 class="modal-content-title">Leave your contacts and we will call you back</h3>
         <div class="input-group">
           <label for="username">Name</label>
