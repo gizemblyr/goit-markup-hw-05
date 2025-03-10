@@ -388,21 +388,38 @@ footer .container > div {
 .footer .subscribe {
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   text-align: left;
   color:white;
   font-weight:500;
   margin-bottom:16px;
 }
+
+.footer .form-subscribe{
+display:flex;
+gap:24px;
+}
+
+.footer .label-subscription{
+
+}
+
+
+
 .footer .footer-email-input {
   height: 40px;
   width: 264px;
   border: none;
   outline: none;
   border: 1px solid #ffffff;
-  background-color: #2e2f42;
+  background-color: transparent;
   border-radius: 4px;
-  color: white;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
 }
 
 .footer .footer-email-input::placeholder {
@@ -410,7 +427,7 @@ footer .container > div {
   color: white;
 }
 
-.button-subscribe {
+.footer .button-subscribe {
   display:flex;
   align-items: center;
   justify-content: center;
@@ -422,6 +439,11 @@ footer .container > div {
   cursor: pointer;
   color: white;
   cursor: pointer;
+  font-family: "Roboto",sans-serif;
+  font-size:16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 .button-subscribe:hover {
   background-color: rgba(64, 75, 191, 1);
@@ -430,7 +452,7 @@ footer .container > div {
 
 .footer .icon-send{
   width:24px;
-  height:20px;
+  height:24px;
   margin-left:16px;
 }
 
