@@ -402,19 +402,23 @@
           <use href="./images/icons.svg#icon-close"></use>
         </svg>
       </button>
+
         <p class="modal-content-title">
           Leave your contacts and we will call you back
         </p>
+
       <form class="modal-content">
+
         <div class="input-group">
           <label for="user-name" class="user-name">Name</label>
           <div class="input-container">
-            <input type="text" name="user-name" id="user-name" class="input-user-name" />
+            <input type="text" name="user-name" id="user-name" class="input-user-name"/>
             <svg class="icon" width="18px" height="24px">
               <use href="./images/icons.svg#icon-person"></use>
             </svg>
           </div>
         </div>
+
         <div class="input-group">
           <label for="phone" class="user-name">Phone</label>
           <div class="input-container">
@@ -436,7 +440,7 @@
         <div class="input-group">
           <label for="user-comment" class="user-name">Comment</label>
           <textarea id="user-comment"
-            name="comment"
+            name="user-comment"
             class="comment"
             placeholder="Text input"
           ></textarea>
@@ -447,12 +451,12 @@
             name="user-privacy"
             id="user-privacy"
             value="true"
-            class="consent"
+            class="consent visually-hidden"
           />
-          <label for="user-privacy"
+          <label for="user-privacy" class="user-privacy-label"
             >I accept the terms and conditions of the
             <span class="user-privacy-span">
-              <svg class="checkbox-icon" width="10px" height="8px">
+              <svg class="checkbox-icon" width="10" height="8">
                 <use href="./images/icons.svg#icon-Checkbox"></use>
               </svg>
             </span>
