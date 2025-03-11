@@ -541,7 +541,6 @@ footer .container > div {
   fill: #ffffff;
 }
 .modal-content-title {
-  margin-top: 48px;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
@@ -551,8 +550,9 @@ footer .container > div {
   line-height: 1.5;
   color: #2e2f42;
 }
-.modal-window .modal-content .input-group {
+.input-group {
   margin-bottom: 8px;
+  width: 100%;
   position: relative;
 }
 
@@ -571,10 +571,19 @@ input.name-input {
   fill: #4d5ae5;
 }
 
-form :nth-child(4) {
+.comment-div {
   margin-bottom: 16px;
 }
-.modal-window .modal-content .input-group .user-name {
+
+.comment-div .user-name {
+  color: #8e8f99;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  display: block;
+  margin-bottom: 4px;
+}
+.user-name {
   color: #8e8f99;
   font-size: 12px;
   line-height: 1.17;
@@ -583,7 +592,7 @@ form :nth-child(4) {
   margin-bottom: 4px;
 }
 
-.modal-window .modal-content .input-container {
+.input-container {
   border: 1px solid rgb(118, 118, 118);
   height: 40px;
   display: flex;
@@ -732,7 +741,7 @@ input[type="checkbox"]:checked + label .user-privacy-span {
 .send-button {
   font-family: "Roboto", sans-serif;
   display: block;
-  margin: 0 auo;
+  margin: 0 auto;
   min-width: 169px;
   height: 56px;
   border: none;
