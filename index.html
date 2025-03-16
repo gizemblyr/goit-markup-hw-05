@@ -393,23 +393,18 @@
         </div>
       </div> 
     </footer>
-
-
-    <!-- MODAL -->
+   <!-- MODAL -->
     <div class="modal-window">
       <div class="overlay">
         <button type="button" class="button-close">
-          <svg width="8" height="8" class="icon">
+          <svg width="8" height="8" class="btn-icon">
           <use href="./images/icons.svg#icon-close"></use>
         </svg>
       </button>
-
         <p class="modal-content-title">
           Leave your contacts and we will call you back
         </p>
-
       <form class="modal-content">
-
         <div class="input-group">
           <label for="user-name" class="user-name">Name</label>
           <div class="input-container">
@@ -454,15 +449,31 @@
             value="true"
             class="consent visually-hidden"
           />
-          <label for="user-privacy" class="user-privacy-label"
-            >I accept the terms and conditions of the
+          <label for="user-privacy" class="user-privacy-label">
+            <input
+              type="checkbox"
+              id="user-privacy"
+              class="consent visually-hidden"
+            />
             <span class="user-privacy-span">
-              <svg width="10" height="8" class="checkbox-icon" >
+              <svg width="10" height="8" class="checkbox-icon">
                 <use href="./images/icons.svg#icon-Checkbox"></use>
               </svg>
             </span>
+            <span class="user-privacy-text">
+              I accept the terms and conditions of the
+            </span>
             <a href="#" class="privacy-policy-link">Privacy Policy</a>
           </label>
+        <!--  <label for="user-privacy" class="user-privacy-label"
+            >
+            <span class="user-privacy-span">
+              <svg width="10" height="8" class="checkbox-icon" >
+                <use href="./images/icons.svg#icon-Checkbox"></use>
+              </svg> I accept the terms and conditions of the
+            </span>
+            <a href="#" class="privacy-policy-link">Privacy Policy</a>
+          </label>-->
         </div>
           <button type="button" name="send" class="send-button">Send</button>
       </form>
