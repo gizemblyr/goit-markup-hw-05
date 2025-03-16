@@ -556,7 +556,7 @@ footer .container > div {
   position: relative;
 }
 
-input.name-input {
+.name-input {
   width: 100%;
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -604,7 +604,7 @@ input.name-input {
   margin-bottom: 16px;
 }
 
-.input-container .icon {
+.name-icon {
   position: absolute;
   left: 16px;
   top: 50%;
